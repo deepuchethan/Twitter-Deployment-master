@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'  >
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<body>
+ <div class="tweet">
+	<h1>Twitter Sentiment Analysis</h1>
+	<header>
+		<div class="container">
+		<div id="brandname">
+		</div>
+		<p>{{ result }}</p>
+        <img src={{ url  }} alt="Chart" height="450" width="550">
+        
+        <form>
+          <input type="button" value="Want to search again, go back!" onclick="history.go(-1)">
+        </form>
+    	</div>
+	</header>
+
+
+	</div>
+
+</body>
+</html>
